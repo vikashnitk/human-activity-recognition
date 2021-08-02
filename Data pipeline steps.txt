@@ -1,0 +1,16 @@
+Below install and activation instructions for the Python virtual environment are given for Ubuntu system. For windows system follow this link: https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
+
+Steps to follow:
+1. Open command line terminal
+2. Install Python virtual environment
+			python3 -m pip install --user virtualenv
+3. Go to the directory of the model
+4. Create the environment
+			python3 -m venv env
+5. Activate the environment
+			source env/bin/activate
+5. Install all the dependencies / libraries using the requirenment.txt file
+			pip install -r requirements.txt
+6. Run the command: python human-activity.py --path clips-folder-path
+			ex: python human-activity.py --path /home/vikash/Desktop/videos/clips
+7. Results will be printed
